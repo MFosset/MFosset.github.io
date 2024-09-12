@@ -1,0 +1,43 @@
+---
+title: "The Training Loop"
+author: ""
+title-block-banner: false
+page-layout: full
+description-meta: "Welcome to my blog, I’m thrilled to welcome you! Here, you will find a collection of articles on a wide variety of topics. Take a look around and let me know what you think!"
+
+listing:
+  - id: posts_2023
+    contents: 
+      - "causalML-book-notes/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
+  - id: posts_2022
+    contents: 
+      - "causalML-book-notes/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    
+toc-title: Year
+toc-location: right
+date-format: "MMMM D, YYYY"
+image: ""
+code-tools: false
+comments: false
+---
+
+Welcome to my blog *The Training Loop*. I'm thrilled that you are here! You will find a collection of articles on a wide variety of topics. As an avid learner, I want to share with you what I pick up along the way. I hope you will find something of interest on my blog. So, take a look around and let me know what you think.
+
+## 2023
+
+:::{#posts_2023}
+:::
+
+## 2022
+
+:::{#posts_2022}
+:::
+
+---
+
+The blog post listing is based on the website source of [Andrew Heiss](https://www.andrewheiss.com/), who has put together an incredible listing template under CC-BY-SA 4.0 license. Thank you!
