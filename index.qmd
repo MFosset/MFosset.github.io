@@ -1,0 +1,40 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/profile_picture_small.jpg"
+  links:
+    - text: "{{< iconify fa6-brands twitter>}} Twitter"
+      href: https://x.com/MaximeFosset
+    - text: "{{< iconify fa6-brands github>}} Github"
+      href: https://github.com/MFosset
+    - icon : envelope
+      text: "Email"
+      href: "mailto:max.fosset@gmail.com"  
+    - #icon: file-earmark-text
+      text: "{{< iconify fa6-brands google-scholar>}} Google Scholar"
+      href: "https://scholar.google.com/citations?user=Eh8RiMIAAAAJ&hl=en"
+#Don't forget to install iconify for the icons, in the project
+#https://github.com/mcanouil/quarto-iconify     
+#https://github.com/quarto-dev/quarto-cli/discussions/5816
+---
+
+::: {#about-block}
+:::
+
+# Welcome !
+
+
+I am Maxime Fosset, an Intensive Care Medicine resident at Montpellier Teaching Hospital and a PhD student in Biostatistics and Causal Inference at the University of Montpellier. I am a member of the [PreMeDICal Team](https://team.inria.fr/premedical/), a joint initiative between INRIA and INSERM, dedicated to advancing precision medicine methods through causal learning and federated learning. 
+
+My research focuses on emulating target trials on observational databases and utilizing modern machine learning techniques to quantify treatment effects. I am also particularly interested in the development of causal inference methods for mechanical ventilation research.
+On this website, you will find my publications, ongoing research and recommended resources to explore the fields of causal inference and intensive care medicine.
+
+Please feel free to [contact me](mailto:max.fosset@gmail.com) if you have any questions or would like to discuss potential projects.
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://team.inria.fr/premedical/" role="button" target="_blank" style="padding: 15px 30px;">I want to know more about the PreMeDICal Team</a>
+</div>
+```
+
